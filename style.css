@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.font-antonio {
+  font-family: "Antonio", sans-serif;
+}
+.font-spartan {
+  font-family: "League Spartan", sans-serif;
+}
+.opacity-text {
+  opacity: 50%;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+}
+.main {
+  background-color: #070724;
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px rgb(255, 255, 255, 0.2) solid;
+  padding: 20px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px rgb(255, 255, 255, 0.2) solid;
+  padding: 20px;
+}
+.navbar-link {
+  letter-spacing: 1.9px;
+}
+.navbar-link:hover {
+  text-decoration: underline 4px;
+  text-decoration-color: #6d2ed5;
+  text-underline-offset: 20px;
+  opacity: 100%;
+}
+
+.main-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.earth {
+  width: 170px;
+  margin: 50px;
+}
+.earth-title {
+  margin-bottom: 20px;
+}
+.earth-text {
+  margin-bottom: 20px;
+}
+
+.source {
+  display: flex;
+  flex-direction: row;
+}
+.source-text {
+  margin-right: 5px;
+}
+.source-link {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  font-weight: 700;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.stat {
+  padding: 5px;
+  border: 1px rgb(255, 255, 255, 0.2) solid;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
